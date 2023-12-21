@@ -122,12 +122,12 @@
                         </div>
                     </div>
 
-                    <form method="POST" action="{{route('vnpay')}}">
+                    {{-- <form method="POST" action="{{route('vnpay')}}">
                         @csrf
                         <input type="hidden" name="order_code" value="01210299110">
                         <input type="hidden" name="total_price" value="100000">
                         <button type="submit" name="redirect">Thanh toan VNPAY</button>
-                    </form>
+                    </form> --}}
 
                     <div class="ml-4 text-center text-sm text-gray-500 sm:text-right sm:ml-0">
                         Laravel v{{ Illuminate\Foundation\Application::VERSION }} (PHP v{{ PHP_VERSION }})

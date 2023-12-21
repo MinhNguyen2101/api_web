@@ -22,7 +22,7 @@ class AnalysController extends Controller
     {
         //
         // analys Order : total order and total price by day
-        $date_from = $request->date_from ?? now()->subDays(1);
+        $date_from = $request->date_from ?? now()->subDays(7);
         // $date_from = $request->date_from ?? now()->startOfDay();
         $date_to =$request->date_to ?? now();
 
